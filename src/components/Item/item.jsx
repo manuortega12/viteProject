@@ -4,7 +4,7 @@ import React from'react';
 
 const Item = ({info}) => {
     return(
-        <a href='' className='film'>        
+        <a href='' className='food'>        
             <img src={info.image} alt=''/>
             <p>{info.title}</p>
         </a>
