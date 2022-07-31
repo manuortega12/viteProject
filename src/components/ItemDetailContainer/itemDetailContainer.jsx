@@ -3,7 +3,7 @@ import React from 'react';
 import ItemDetail from '../ItemDetail/itemDetail';
 import { useEffect, useState } from 'react';
 
-const food = {id: 1, image:"https://okdiario.com/img/2021/12/09/hamburguesas-caseras-rellenas-de-queso-cheddar.jpg", title: "Hamburgesa", precio: "$600", desc: "Hamburesa con de un medallón de carne, incluye porcion de papas fritas"}
+const food = {id: 1, image:"https://okdiario.com/img/2021/12/09/hamburguesas-caseras-rellenas-de-queso-cheddar.jpg", title: "Hamburgesa", precio: "$600", desc: "Hamburguesa con dos medallones de carne, incluye de papas fritas"}
 
 export const ItemDetailContainer = () => {
     const [data, setData] = useState ({});
